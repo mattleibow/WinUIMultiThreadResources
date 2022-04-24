@@ -1,0 +1,40 @@
+﻿<Application
+    x:Class="SkiaSharpSample.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SkiaSharpSample">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--<XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />-->
+                <!-- Other merged dictionaries here -->
+            </ResourceDictionary.MergedDictionaries>
+
+            <!--<Style TargetType="local:WindowRootView">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="local:WindowRootView">
+                            <Page Margin="0" Padding="0" Name="RootPage">
+                                <Grid Name="RootGrid" Background="Red">
+
+                                    <ContentControl Name="AppTitleBarContainer"
+                                            IsTabStop="False"
+                                            VerticalAlignment="Top"
+                                            VerticalContentAlignment="Stretch"
+                                            HorizontalContentAlignment="Stretch"
+                                            Canvas.ZIndex="1"
+                                            Margin="0,0,0,0">
+                                    </ContentControl>
+                                    
+                                    <ContentPresenter Canvas.ZIndex="0"></ContentPresenter>
+                                    
+                                </Grid>
+                            </Page>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>-->
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
