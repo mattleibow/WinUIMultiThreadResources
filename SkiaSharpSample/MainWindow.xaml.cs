@@ -5,9 +5,13 @@ namespace SkiaSharpSample
 {
 	public sealed partial class MainWindow : Window
 	{
+		static int windowCounter = 1;
+
 		public MainWindow()
 		{
 			InitializeComponent();
+
+			Title = $"Window Number {windowCounter++}";
 		}
 
 		private void Button_Click(object sender, RoutedEventArgs e)
